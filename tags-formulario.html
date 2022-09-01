@@ -7,9 +7,40 @@
     <title>HTML - Forms</title>
 </head>
 <body>
-    <p>Uma tag <code>form</code> para começar</p>
-    <p>Um label e um input aqui:</p>
-    <p>E um botão para terminar.</p>
+    <p>Formulários</p>
 
+    <!-- formulário -->
+    <form>
+        <label for="email">Email</label>
+        <input type="text" id="email"/>
+        <br/>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha"/>
+        <br/>
+        <button type="submit">Enviar</button>
+    </form>
+    
+     <!-- usando placeholder -->
+    <form>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Digite seu nome"/>
+        <br/>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha"/>
+        <br/>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <!-- formulário usando hidden e place holder -->
+    <form>
+        <label for="email" hidden>Email</label>
+        <input type="text" id="email" placeholder="Digite seu nome"/>
+        <br/>
+        <label for="senha" hidden>Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha"/>
+        <br/>
+        <button type="submit">Enviar</button>
+    </form>
+    
 </body>
 </html>
